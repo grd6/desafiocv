@@ -19,7 +19,7 @@ color: #373a3c;
   background-color: #373a3c!important ;
 }
 #Hero-Section {
-  background-image: url("/assets/img/img_yo.jpg");
+  background-image:url(/assets/img/img_yo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
  
@@ -29,10 +29,10 @@ color: #373a3c;
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
+.image-top {
   height: 250px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
