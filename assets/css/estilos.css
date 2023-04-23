@@ -1,14 +1,30 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-/* Hero Section */
+.navbar-brand h3 {
+  font-size: 1.5rem;
+  color: #9b9d9e;
+}
+.display-1 {
+color: #373a3c;
+-webkit-text-stroke: 2px white;
+}
 
+.btn-outline-info{
+  background-color: #373a3c;
+  border-color: white;
+}
+.bg-info{
+  background-color: #373a3c!important ;
+}
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("/assets/img/img_yo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+ 
+  width: 100%;
+  height: 70rem;
 }
 
 /* Mis trabajos */
@@ -32,8 +48,7 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-
 }
